@@ -1,0 +1,35 @@
+Source: vmware-vsphere-cli
+Section: perl
+Priority: optional
+Maintainer: Luiz Costa <me@luizgustavo.pro.br>
+Build-Depends:  debhelper-compat (=12)
+Build-Depends-Indep: libclass-std-perl (>= 0.0.4),
+                     libmodule-build-perl,
+                     perl
+Standards-Version: 4.5.0
+Homepage: https://wwww.centreon.com
+
+Package: perl-vmware-vsphere
+Architecture: any
+Depends: ${misc:Depends}, ${perl:Depends},
+         libstat-lsmode-perl,
+         libclass-methodmaker-perl,
+         libuuid-perl,
+         libconvert-binhex-perl,
+         libemail-date-format-perl,
+         libio-sessiondata-perl,
+         libmime-lite-perl,
+         libmime-types-perl,
+         libmime-tools-perl,
+         libmailtools-perl,
+         libnet-smtp-ssl-perl,
+         libsoap-lite-perl
+Description: The vSphere SDK for Perl is a client-side Perl framework that provides an easy-to-use scripting interface to the vSphere API. Administrators and developers who
+ are familiar with Perl can use the vSphere SDK for Perl to automate a wide variety of administrative, provisioning, and monitoring tasks in the vSphere
+ environment. The vSphere SDK for Perl includes ready-to-use utility applications, which you can immediately put to use in your virtual datacenter.
+ .
+ The vSphere SDK for Perl installation includes the WS-Management Perl Library, which allows you to write scripts that retrieve CIM data from the ESX host using
+ CIMOM, a service that provides standard CIM management functions over a WBEM (Web-Based Enterprise Management).
+ .
+ You can use the SDK to manage ESX 3.0.x, ESX/ESXi 3.5, ESX/ESXi 4.0, ESX/ESXi 4.1, ESXi 5.0, vCenter Server 2.5, vCenter Server 4.0, vCenter Server 4.1, and
+ vCenter Server 5.0.
