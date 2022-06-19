@@ -1,2 +1,3 @@
-VMware/*    /usr/share/perl5/VMware
-WSMan/*     /usr/share/perl5/WSMan
+VMware/*                usr/share/perl5/VMware
+WSMan/*                 usr/share/perl5/WSMan
+usr/share/man/man3/*
