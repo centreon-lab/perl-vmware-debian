@@ -1,3 +1,3 @@
-VMware/*                usr/share/perl5/VMware
-WSMan/*                 usr/share/perl5/WSMan
-usr/share/man/man3/*
+debian/perl-vmware-vsphere/usr/share/perl5/VMware/* usr/share/perl5/VMware
+debian/perl-vmware-vsphere/usr/share/perl5/WSMan/*  usr/share/perl5/WSMan
+debian/perl-vmware-vsphere/usr/share/man/man3/*     usr/share/man/man3/*
