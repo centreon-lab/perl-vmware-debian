@@ -23,7 +23,8 @@ Depends: ${misc:Depends}, ${perl:Depends},
          libmime-tools-perl,
          libmailtools-perl,
          libnet-smtp-ssl-perl,
-         libsoap-lite-perl
+         libsoap-lite-perl,
+         libtext-template-perl
 Description: The vSphere SDK for Perl is a client-side Perl framework that provides an easy-to-use scripting interface to the vSphere API. Administrators and developers who
  are familiar with Perl can use the vSphere SDK for Perl to automate a wide variety of administrative, provisioning, and monitoring tasks in the vSphere
  environment. The vSphere SDK for Perl includes ready-to-use utility applications, which you can immediately put to use in your virtual datacenter.
@@ -33,3 +34,4 @@ Description: The vSphere SDK for Perl is a client-side Perl framework that provi
  .
  You can use the SDK to manage ESX 3.0.x, ESX/ESXi 3.5, ESX/ESXi 4.0, ESX/ESXi 4.1, ESXi 5.0, vCenter Server 2.5, vCenter Server 4.0, vCenter Server 4.1, and
  vCenter Server 5.0.
+
